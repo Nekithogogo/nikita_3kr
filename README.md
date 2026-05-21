@@ -5,15 +5,15 @@
 Запуск
 py -3 -m venv .venv
 
-3. Активируйте окружение
+Активируйте окружение:
 .venv\Scripts\Activate.ps1
 Linux/Macos
 source .venv/bin/activate
 
-4. Установите необходимые библиотеки
+Установите необходимые библиотеки:
 pip install -r requirements.txt
 
-5. Запустите сервер
+Запустите сервер:
 python -m uvicorn main:app --reload
 
 Скопируйте .env.example в .env
